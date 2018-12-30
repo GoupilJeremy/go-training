@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da3cddf0-f693-4cad-8f25-9314b39e74f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/desk_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,15 +39,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deck.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="60" column="50" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
+            <state relative-caret-position="253">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <element signature="e#14#42#0" expanded="true" />
                 <element signature="n#!!block;n#newDeck#0" />
                 <element signature="n#!!block;n#print#0" />
                 <element signature="n#!!block;n#deal#0" />
                 <element signature="n#!!block;n#toString#0" />
-                <element signature="n#!!block;n#saveFile#0" />
                 <element signature="n#!!block;n#newDeckFromFile#0" />
               </folding>
             </state>
@@ -55,13 +53,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/desk_test.go">
+        <entry file="file://$PROJECT_DIR$/structs/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#14#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="359">
+              <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -94,16 +89,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/state.go" />
-        <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/deck.go" />
-        <option value="$PROJECT_DIR$/desk_test.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/structs/main.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1022" />
-    <option name="width" value="903" />
+    <option name="x" value="1023" />
+    <option name="width" value="902" />
     <option name="height" value="1162" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -119,6 +113,11 @@
             <path>
               <item name="cardsProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="cardsProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardsProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardsProject" type="462c0819:PsiDirectoryNode" />
+              <item name="structs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,13 +147,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestSaveToDeckAndNewDeckFromFile in cardsProject">
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="cardsProject" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="cardsProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/structs/main.go" />
       <package value="awesomeProject" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -186,28 +194,6 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="TestNewDeck in cardsProject" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="cardsProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="cardsProject" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestNewDeck$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSaveToDeckAndNewDeckFromFile in cardsProject" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="cardsProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="cardsProject" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSaveToDeckAndNewDeckFromFile$" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="cardsProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -219,63 +205,21 @@
       <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="gobench cardsProject" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="cardsProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="cardsProject" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestSaveToDeckAndNewDeckFromFile in cardsProject" />
-        <item itemvalue="Go Test.TestNewDeck in cardsProject" />
-        <item itemvalue="Go Test.gobench cardsProject" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build main.go state.go" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go state.go" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
-  <component name="TestHistory">
-    <history-entry file="TestNewDeck_in_cardsProject - 2018.12.27 at 16h 24m 05s.xml">
-      <configuration name="TestNewDeck in cardsProject" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestNewDeck_in_cardsProject - 2018.12.27 at 16h 24m 30s.xml">
-      <configuration name="TestNewDeck in cardsProject" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestNewDeck_in_cardsProject - 2018.12.27 at 16h 24m 45s.xml">
-      <configuration name="TestNewDeck in cardsProject" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestNewDeck_in_cardsProject - 2018.12.27 at 16h 24m 56s.xml">
-      <configuration name="TestNewDeck in cardsProject" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestNewDeck_in_cardsProject - 2018.12.27 at 16h 25m 10s.xml">
-      <configuration name="TestNewDeck in cardsProject" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="gobench_cardsProject - 2018.12.27 at 16h 25m 23s.xml">
-      <configuration name="gobench cardsProject" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestNewDeck_in_cardsProject - 2018.12.27 at 16h 25m 34s.xml">
-      <configuration name="TestNewDeck in cardsProject" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestNewDeck_in_cardsProject - 2018.12.27 at 16h 28m 48s.xml">
-      <configuration name="TestNewDeck in cardsProject" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSaveToDeckAndNewDeckFromFile_in_cardsProject - 2018.12.27 at 16h 44m 51s.xml">
-      <configuration name="TestSaveToDeckAndNewDeckFromFile in cardsProject" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSaveToDeckAndNewDeckFromFile_in_cardsProject - 2018.12.27 at 16h 45m 14s.xml">
-      <configuration name="TestSaveToDeckAndNewDeckFromFile in cardsProject" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="1022" y="0" width="903" height="1162" extended-state="0" />
+    <frame x="1023" y="0" width="902" height="1162" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22301304" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.36223277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -301,9 +245,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add deck.go" />
-    <MESSAGE value="add Readme" />
-    <MESSAGE value="refactor shuffle" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor shuffle" />
+    <option name="LAST_COMMIT_MESSAGE" value="add deck.go" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/state.go">
@@ -316,11 +258,9 @@
     <entry file="file://$PROJECT_DIR$/my_cards">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://C:/Go/src/time/example_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
-        </state>
+        <state relative-caret-position="-483" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
@@ -332,27 +272,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deck.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="60" column="50" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
+        <state relative-caret-position="253">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <element signature="e#14#42#0" expanded="true" />
             <element signature="n#!!block;n#newDeck#0" />
             <element signature="n#!!block;n#print#0" />
             <element signature="n#!!block;n#deal#0" />
             <element signature="n#!!block;n#toString#0" />
-            <element signature="n#!!block;n#saveFile#0" />
             <element signature="n#!!block;n#newDeckFromFile#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desk_test.go">
+    <entry file="file://$PROJECT_DIR$/structs/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#14#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="359">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
         </state>
       </provider>
     </entry>
