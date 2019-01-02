@@ -1,6 +1,6 @@
 CardsProject for training
 
-with Travis CI
+with Travis CI : branch master : <img src="https://travis-ci.com/GoupilJeremy/go-training.svg?branch=master" alt="build:passed">
 add type
 add slices
 add struct
